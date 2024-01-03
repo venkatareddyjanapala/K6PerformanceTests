@@ -6,7 +6,7 @@ import { Rate } from 'k6/metrics';
 export const errorRate = new Rate('errors');
 
 export default function () {
-  const url = 'https://qa.harness.io/gateway/ng/api/connectors/stats?routingId=zEaak-FLS425IEO7OLzMUg&accountIdentifier=zEaak-FLS425IEO7OLzMUg';
+  const url = 'https://qa.xxxx.io/gateway/ng/api/connectors/stats?routingId=zEaak-FLS425IEO7OLzMUg&accountIdentifier=zEaak-FLS425IEO7OLzMUg';
   const params = {
     headers: {
       'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdXRoVG9rZW4iOiI2M2ZjNWQ0NDZlNmJjYjIwMGQ4MzJjNWMiLCJpc3MiOiJIYXJuZXNzIEluYyIsImV4cCI6MTY3NzgzNTcxNSwiZW52IjoiZ2F0ZXdheSIsImlhdCI6MTY3Nzc0OTI1NX0.scjR0Zjai-hi-iGcbI-23uZK3Q095QKuBZVFamJ1yaQ',
