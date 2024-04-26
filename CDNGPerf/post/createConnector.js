@@ -20,7 +20,7 @@ export default function () {
     },
   };
   const data = {
-    "connector":{name:`PerfdockerVenkat${__VU}_${__ITER}`,"description":"",identifier:`PerfdockerVenkat${__VU}_${__ITER}`,"tags":{},"type":"DockerRegistry","spec":{"executeOnDelegate":false,"dockerRegistryUrl":"https://docker.dev.harness.io","providerType":"DockerHub","auth":{"type":"Anonymous"}}}};
+    "connector":{name:`PerfdockerVenkat${__VU}_${__ITER}`,"description":"",identifier:`PerfdockerVenkat${__VU}_${__ITER}`,"tags":{},"type":"DockerRegistry","spec":{"executeOnDelegate":false,"dockerRegistryUrl":"https://docker.dev.nnnn.io","providerType":"DockerHub","auth":{"type":"Anonymous"}}}};
  const res = http.post(url, JSON.stringify(data),params);
  const responseId = res.json().data.connector.identifier;
  console.log(responseId);
